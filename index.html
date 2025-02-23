@@ -1,0 +1,108 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portal</title>
+
+  <!-- Tailwind CDN (Move to Head) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Custom Stylesheet -->
+  <link href="../CSS/styles.css" rel="stylesheet" />
+</head>
+<body class="bg-black text-white">
+  <!-- Navbar -->
+  <nav
+    class="flex justify-between items-center px-10 py-5 bg-[#1E1E1E] w-full shadow-lg"
+  >
+    <div class="flex items-center space-x-4">
+      <a href="https://www.somaiya.edu/en/">
+        <img
+          src="../Mini-Proj-IMAGES/university-logo.svg"
+          alt="College Logo"
+          class="h-12"
+        />
+      </a>
+      <h2 class="text-xl font-semibold">K.J. Somaiya College of Engineering</h2>
+    </div>
+    <ul class="flex space-x-8 text-lg font-medium">
+      <li><a href="#" class="hover:text-gray-400">Home</a></li>
+      <li><a href="#" class="hover:text-gray-400">About</a></li>
+      <li><a href="#" class="hover:text-gray-400">Notices</a></li>
+      <li><a href="#" class="hover:text-gray-400">Events</a></li>
+      <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero text-center py-20">
+    <h1 class="text-4xl font-bold">Welcome to Your Student Portal</h1>
+    <p class="text-lg text-gray-400 mt-3">
+      Access your courses, assignments, and campus updates in one place!
+    </p>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="flex justify-center space-x-6 mt-10">
+    <div class="bg-[#1E1E1E] p-6 rounded-lg w-64 text-center shadow-lg">
+      <h3 class="text-xl font-semibold">📚 Courses</h3>
+      <p class="text-gray-400 mt-2">View your enrolled courses and progress.</p>
+    </div>
+
+    <div class="bg-[#1E1E1E] p-6 rounded-lg w-64 text-center shadow-lg">
+      <h3 class="text-xl font-semibold">🗓️ Timetable</h3>
+      <p class="text-gray-400 mt-2">Check your daily class schedule.</p>
+    </div>
+
+    <div class="bg-[#1E1E1E] p-6 rounded-lg w-64 text-center shadow-lg">
+      <h3 class="text-xl font-semibold">📢 Announcements</h3>
+      <p class="text-gray-400 mt-2">
+        Stay updated with the latest campus news.
+      </p>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <div class="myFooter pt-32 px-80">
+    <footer class="bg-[#1E1E1E] text-white py-6 rounded-t-lg">
+      <div class="flex justify-center space-x-6 mb-4">
+        <!-- Social Media Icons -->
+        <a href="#" class="text-gray-400 hover:text-white text-2xl">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12A10 10 0 1 0 12 22V14h-2v-3h2V8.8c0-2.08 1.2-3.2 3.08-3.2.9 0 1.8.17 1.8.17v2h-1c-1 0-1.3.6-1.3 1.3V12h2.5l-.4 3h-2.1v6.95A10 10 0 0 0 22 12z"
+            />
+          </svg>
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white text-2xl">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white text-2xl">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white text-2xl">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white text-2xl">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+
+      <!-- Copyright Text -->
+      <p class="text-center text-gray-400 text-sm">
+        © SOMAIYA Vidyavihar University, Inc. All rights reserved.
+      </p>
+    </footer>
+  </div>
+</body>
